@@ -1,181 +1,194 @@
-python_aqa_60day_plan:
-  Day01:
-    title: "Установка Python и venv"
-    goal: "Установить Python 3.x, создать виртуальное окружение и запустить первый скрипт"
-  Day02:
-    title: "Git, аккаунт, SSH"
-    goal: "Установить Git, создать аккаунт GitHub/GitLab, сгенерировать и добавить SSH-ключ"
-  Day03:
-    title: "VS Code и инструменты кодирования"
-    goal: "Установить VS Code, расширения, настроить black/isort/flake8"
-  Day04:
-    title: "Браузеры и Postman"
-    goal: "Проверить браузеры, освоиться с DevTools и сделать GET в Postman"
-  Day05:
-    title: "DBeaver и локальная БД (SQLite/Postgres)"
-    goal: "Подключиться к БД, создать таблицу и выполнить SELECT"
-  Day06:
-    title: "Структура репозитория и pytest тест"
-    goal: "Создать структуру (tests/pages/utils), написать test_sum на pytest"
-  Day07:
-    title: "Основы HTTP (GET/POST) [только для собеседования]"
-    goal: "Разобрать методы HTTP, статус-коды и отправить POST в httpbin/Postman"
-  Day08:
-    title: "Python: базовый синтаксис и структуры данных"
-    goal: "Укрепить list/dict/set/tuple, comprehension, map/filter"
-  Day09:
-    title: "ООП: классы и наследование"
-    goal: "Написать BasePage c методом find для будущего POM"
-  Day10:
-    title: "requests и HTTP в Python"
-    goal: "Научиться делать GET/POST, сессии, таймауты и обрабатывать JSON"
-  Day11:
-    title: "pytest: основы"
-    goal: "Структура тестов, assertions, запуск из CLI"
-  Day12:
-    title: "pytest: фикстуры и параметризация"
-    goal: "Понимать @fixture и @pytest.mark.parametrize"
-  Day13:
-    title: "Работа с JSON/XML"
-    goal: "Парсинг JSON и простого XML, проверка ключей/типов"
-  Day14:
-    title: "SQL для тестировщика"
-    goal: "SELECT/WHERE/JOIN и подключение из Python (sqlite/psycopg2)"
-  Day15:
-    title: "Postman: коллекции и автотесты"
-    goal: "Создать коллекцию с окружениями и автотестами"
-  Day16:
-    title: "API-тестирование на pytest"
-    goal: "Писать тесты CRUD на pytest, использовать фикстуры"
-  Day17:
-    title: "Работа с файлами (upload/download)"
-    goal: "Автоматические проверки скачивания/загрузки файлов"
-  Day18:
-    title: "Логирование"
-    goal: "Подключить logging и логировать шаги теста"
-  Day19:
-    title: "Mock/Stub для API"
-    goal: "Использовать responses/requests-mock для изоляции запросов"
-  Day20:
-    title: "Обзор очередей (Kafka/RabbitMQ) [только для собеседования]"
-    goal: "Понимание концепций и чтение сообщений"
-  Day21:
-    title: "Промежуточный проект - мини-фреймворк"
-    goal: "Собрать мини-фреймворк: pytest + requests + POM + readme"
-  Day22:
-    title: "Selenium: старт и WebDriver"
-    goal: "Открыть браузер через selenium-manager и перейти на страницу"
-  Day23:
-    title: "Локаторы (id/name/css/xpath)"
-    goal: "Научиться выбирать правильные локаторы и их применять"
-  Day24:
-    title: "Ожидания (implicit/explicit) и stale elements"
-    goal: "Реализовать WebDriverWait/ожидания"
-  Day25:
-    title: "Page Object Model (POM)"
-    goal: "Применить POM и переписать тест в объектной модели"
-  Day26:
-    title: "Формы, dropdown, frames, alerts"
-    goal: "Работа с формами, iframe и модальными окнами"
-  Day27:
-    title: "Headless, профили и опции браузера"
-    goal: "Запуск headless и управление опциями/профилями"
-  Day28:
-    title: "Playwright для Python"
-    goal: "Написать тесты на Playwright и сравнить с Selenium"
-  Day29:
-    title: "Отчёты Allure (установка и интеграция)"
-    goal: "Интегрировать pytest с Allure и генерировать отчёты"
-  Day30:
-    title: "Параллельный запуск (pytest-xdist) и стабильность"
-    goal: "Настроить xdist, retry и скриншоты при падениях"
-  Day31:
-    title: "Утилиты: screenshot, retry, wait helpers"
-    goal: "Добавить хелперы и прикреплять скриншоты к отчёту"
-  Day32:
-    title: "Upload/download в браузерах (edge-cases)"
-    goal: "Проверять временные файлы и их целостность (MD5)"
-  Day33:
-    title: "Тестирование SPA (XHR/Fetch ожидания)"
-    goal: "Отслеживать изменение DOM после асинхронных вызовов"
-  Day34:
-    title: "Flaky tests: причины и исправления"
-    goal: "Распознавать flake-тесты и устранять (тайминги, синхронизация)"
-  Day35:
-    title: "Инструменты диагностики (browser & network logs)"
-    goal: "Собирать логи браузера и сетевые логи"
-  Day36:
-    title: "Интеграция Playwright/Selenium с pytest/Allure"
-    goal: "Унифицировать запуск тестов: --browser=chrome"
-  Day37:
-    title: "Сбор smoke/regression набора (10-15 тестов)"
-    goal: "Подготовить suite и запускать локально"
-  Day38:
-    title: "Рефакторинг фреймворка и документация"
-    goal: "Документировать запуск и требования (README)"
-  Day39:
-    title: "Введение в desktop-автоматизацию"
-    goal: "Обзор pywinauto/pyautogui и установка"
-  Day40:
-    title: "pywinauto: автоматизировать Calculator"
-    goal: "Открыть калькулятор, выполнить операции и проверить результат"
-  Day41:
-    title: "pyautogui: мышь, клавиатура, скриншоты"
-    goal: "Навигировать по экрану, делать скрины и ввод текста"
-  Day42:
-    title: "Работа с окнами и контролами"
-    goal: "Поиск контролов по имени/class, чтение текстов"
-  Day43:
-    title: "Интеграция desktop-тестов с pytest"
-    goal: "Добавить desktop-тесты в общий репозиторий"
-  Day44:
-    title: "Electron-приложения (обзор) [только для собеседования]"
-    goal: "Подходы: WebDriver если возможно, иначе pyautogui"
-  Day45:
-    title: "Логирование и артефакты desktop-тестов"
-    goal: "Скриншоты и запись видео при падении (ffmpeg опционально)"
-  Day46:
-    title: "Docker + GitHub Actions: базовая интеграция"
-    goal: "Подготовить Dockerfile для тест-раннера и workflow для GitHub Actions"
-  Day47:
-    title: "Desktop ↔ backend интеграция"
-    goal: "Тест: действие в UI приводит к записи в БД (проверка через API/DB)"
-  Day48:
-    title: "Итоговый demo-проект (web + desktop)"
-    goal: "Собрать demo и записать краткое видео 5-7 минут"
-  Day49:
-    title: "Установка Docker Desktop (Windows/WSL2)"
-    goal: "Настроить Docker и поднять контейнер Postgres"
-  Day50:
-    title: "Dockerize тест-раннер"
-    goal: "Создать Dockerfile для pytest + браузеры (Selenium/Playwright образ)"
-  Day51:
-    title: "Docker Compose: infra (db, mock)"
-    goal: "Составить docker-compose.yml и поднять стек"
-  Day52:
-    title: "GitHub Actions/GitLab CI: pipeline для тестов"
-    goal: "Написать workflow: checkout→build→run tests→upload artefacts"
-  Day53:
-    title: "Jenkins: обзор и job (только для собеседования)"
-    goal: "Понять Jenkinsfile и базовую настройку job"
-  Day54:
-    title: "Секреты и переменные окружения в CI"
-    goal: "Управление секретами и хранение тестовых данных"
-  Day55:
-    title: "Мониторинг/логи CI, артефакты"
-    goal: "Собирать логи и отправлять их в Allure/ReportPortal"
-  Day56:
-    title: "Production-like сценарии: nightly и smoke"
-    goal: "Настроить отдельные workflow: smoke и full-regression"
-  Day57:
-    title: "Финализация репо и README"
-    goal: "Подготовить README, примеры команд, чек-лист"
-  Day58:
-    title: "Подготовка ответов на интервью [только для собеседования]"
-    goal: "Скрипты ответов (OOP, fixtures, Selenium vs Playwright)"
-  Day59:
-    title: "Проигрывание интервью и запись демо"
-    goal: "10-минутный рассказ + 10-мин демо, запись экрана"
-  Day60:
-    title: "Итог: чек-лист готовности к вакансии"
-    goal: "Проверка: язык + фреймворк + CI + 10 тестов + Allure + SQL + desktop basics"
+plan:
+  day_1:
+    title: "Основы Python: синтаксис, переменные, типы данных"
+    estimated_time_h: 2.0
+  day_2:
+    title: "Условия, циклы, базовые алгоритмы"
+    estimated_time_h: 2.0
+  day_3:
+    title: "Функции, области видимости, практика"
+    estimated_time_h: 2.0
+  day_4:
+    title: "Структуры данных: списки, словари, множества, кортежи"
+    estimated_time_h: 2.5
+  day_5:
+    title: "Работа с файлами, путь к автоматизации"
+    estimated_time_h: 2.0
+  day_6:
+    title: "Исключения, дебаггинг, интроспекция Python"
+    estimated_time_h: 2.5
+  day_7:
+    title: "Мини-проект: простой CLI-инструмент/анализ данных"
+    estimated_time_h: 2.0
+
+  # ——— ДАЛЕЕ увеличенная длительность: 2–4.5 часа ———
+  day_8:
+    title: "OOP в Python + практика классов"
+    estimated_time_h: 3.0
+  day_9:
+    title: "Продвинутое ООП: наследование, полиморфизм, композиция"
+    estimated_time_h: 3.0
+  day_10:
+    title: "Работа с модулями и пакетами, виртуальные окружения, Poetry/pip"
+    estimated_time_h: 3.0
+  day_11:
+    title: "Основы PyTest: структура, фикстуры, параметризация"
+    estimated_time_h: 3.5
+  day_12:
+    title: "Mocking: unittest.mock, monkeypatch, паттерны тестирования"
+    estimated_time_h: 3.5
+  day_13:
+    title: "PyTest + API-тестирование: requests/httpx, best practices"
+    estimated_time_h: 3.5
+  day_14:
+    title: "Проектное задание: покрытие API тестами"
+    estimated_time_h: 4.0
+
+  day_15:
+    title: "Selenium/Playwright: запуск, локаторы, ожидания"
+    estimated_time_h: 3.5
+  day_16:
+    title: "Page Object Model (POM) + структура тестового фреймворка"
+    estimated_time_h: 4.0
+  day_17:
+    title: "Практика end-to-end тестов + продвинутое ожидание"
+    estimated_time_h: 4.0
+  day_18:
+    title: "Playwright API + фикстуры + стабилизация тестов"
+    estimated_time_h: 4.0
+  day_19:
+    title: "UI-тесты как часть CI: оптимизация, параллелизм"
+    estimated_time_h: 3.5
+  day_20:
+    title: "Проектная работа: мини-фреймворк UI-тестов"
+    estimated_time_h: 4.5
+
+  day_21:
+    title: "Основы Docker: контейнеры, образы, Dockerfile"
+    estimated_time_h: 3.0
+  day_22:
+    title: "Docker Compose, сетевые взаимодействия"
+    estimated_time_h: 3.5
+  day_23:
+    title: "Linux basics для AQA"
+    estimated_time_h: 3.0
+  day_24:
+    title: "CI/CD: GitHub Actions + прогон тестов"
+    estimated_time_h: 3.5
+  day_25:
+    title: "CI-оптимизация, артефакты, отчётность"
+    estimated_time_h: 3.5
+  day_26:
+    title: "Проект: поднятие приложения в Docker + автотесты"
+    estimated_time_h: 4.0
+
+  day_27:
+    title: "SQL: SELECT, JOIN, агрегаты"
+    estimated_time_h: 3.0
+  day_28:
+    title: "PostgreSQL + работа с ORM (SQLAlchemy)"
+    estimated_time_h: 3.5
+  day_29:
+    title: "Тесты БД + фикстуры + мокирование слоёв данных"
+    estimated_time_h: 3.5
+  day_30:
+    title: "Мини-проект: тестирование REST + DB"
+    estimated_time_h: 4.0
+
+  day_31:
+    title: "Asyncio basics + асинхронные запросы"
+    estimated_time_h: 3.0
+  day_32:
+    title: "Асинхронные тесты: pytest-asyncio, ASGI-приложения"
+    estimated_time_h: 3.5
+  day_33:
+    title: "Работа с очередями (Redis/Kafka) на базовом уровне"
+    estimated_time_h: 3.5
+  day_34:
+    title: "Мини-практикум: тестирование асинхронного API"
+    estimated_time_h: 4.0
+
+  day_35:
+    title: "Allure: отчёты, шаги, вложения, флейки"
+    estimated_time_h: 3.0
+  day_36:
+    title: "Логирование, метрики, Sentry"
+    estimated_time_h: 3.0
+  day_37:
+    title: "Нагрузочное тестирование: Locust/JMeter (вводный)"
+    estimated_time_h: 3.0
+  day_38:
+    title: "Проект: мини-объединение UI+API тестов"
+    estimated_time_h: 4.5
+
+  day_39:
+    title: "Архитектура фреймворков: слои, абстракции, SOLID"
+    estimated_time_h: 3.5
+  day_40:
+    title: "Чистый код для AQA: практическая рефакторинг-сессия"
+    estimated_time_h: 3.5
+  day_41:
+    title: "Design Patterns для тестов + реализация"
+    estimated_time_h: 3.5
+  day_42:
+    title: "Проект: улучшение архитектуры фреймворка"
+    estimated_time_h: 4.5
+
+  day_43:
+    title: "Git: продвинутые операции, ветвление, работа с PR"
+    estimated_time_h: 3.0
+  day_44:
+    title: "Инфраструктура тестов: конфиги, секреты, окружения"
+    estimated_time_h: 3.0
+  day_45:
+    title: "Оптимизация тестов: кеширование, ускорение, параллельность"
+    estimated_time_h: 3.5
+  day_46:
+    title: "Проект: ускорение тестового прогона"
+    estimated_time_h: 4.0
+
+  day_47:
+    title: "Mobile testing: Appium/BrowserStack основы"
+    estimated_time_h: 3.0
+  day_48:
+    title: "Тестирование микросервисов: контракты, схемы"
+    estimated_time_h: 3.5
+  day_49:
+    title: "Security basics для AQA"
+    estimated_time_h: 3.0
+  day_50:
+    title: "Проект: тестирование микросервисного приложения"
+    estimated_time_h: 4.5
+
+  day_51:
+    title: "Ревизия навыков Python: сложные практические задачи"
+    estimated_time_h: 3.0
+  day_52:
+    title: "Глубокая практика PyTest + собственные плагины"
+    estimated_time_h: 3.5
+  day_53:
+    title: "Глубокая практика Playwright/Selenium"
+    estimated_time_h: 3.5
+  day_54:
+    title: "Интеграция всех технологий в единую экосистему"
+    estimated_time_h: 4.5
+
+  day_55:
+    title: "Подготовка к техническим собеседованиям: теория"
+    estimated_time_h: 3.0
+  day_56:
+    title: "Практика live-coding (Python + алгоритмы)"
+    estimated_time_h: 3.5
+  day_57:
+    title: "Практика решения AQA-кейсов"
+    estimated_time_h: 3.5
+  day_58:
+    title: "Собеседование: моделирование полного цикла"
+    estimated_time_h: 4.0
+
+  day_59:
+    title: "Завершающий проект: финальный тестовый фреймворк"
+    estimated_time_h: 4.5
+  day_60:
+    title: "Ревью итогов, доработка портфолио, план развития"
+    estimated_time_h: 3.0
