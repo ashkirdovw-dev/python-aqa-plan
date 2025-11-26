@@ -1,0 +1,181 @@
+python_aqa_60day_plan:
+  Day01:
+    title: "Установка Python и venv"
+    goal: "Установить Python 3.x, создать виртуальное окружение и запустить первый скрипт"
+  Day02:
+    title: "Git, аккаунт, SSH"
+    goal: "Установить Git, создать аккаунт GitHub/GitLab, сгенерировать и добавить SSH-ключ"
+  Day03:
+    title: "VS Code и инструменты кодирования"
+    goal: "Установить VS Code, расширения, настроить black/isort/flake8"
+  Day04:
+    title: "Браузеры и Postman"
+    goal: "Проверить браузеры, освоиться с DevTools и сделать GET в Postman"
+  Day05:
+    title: "DBeaver и локальная БД (SQLite/Postgres)"
+    goal: "Подключиться к БД, создать таблицу и выполнить SELECT"
+  Day06:
+    title: "Структура репозитория и pytest тест"
+    goal: "Создать структуру (tests/pages/utils), написать test_sum на pytest"
+  Day07:
+    title: "Основы HTTP (GET/POST) [только для собеседования]"
+    goal: "Разобрать методы HTTP, статус-коды и отправить POST в httpbin/Postman"
+  Day08:
+    title: "Python: базовый синтаксис и структуры данных"
+    goal: "Укрепить list/dict/set/tuple, comprehension, map/filter"
+  Day09:
+    title: "ООП: классы и наследование"
+    goal: "Написать BasePage c методом find для будущего POM"
+  Day10:
+    title: "requests и HTTP в Python"
+    goal: "Научиться делать GET/POST, сессии, таймауты и обрабатывать JSON"
+  Day11:
+    title: "pytest: основы"
+    goal: "Структура тестов, assertions, запуск из CLI"
+  Day12:
+    title: "pytest: фикстуры и параметризация"
+    goal: "Понимать @fixture и @pytest.mark.parametrize"
+  Day13:
+    title: "Работа с JSON/XML"
+    goal: "Парсинг JSON и простого XML, проверка ключей/типов"
+  Day14:
+    title: "SQL для тестировщика"
+    goal: "SELECT/WHERE/JOIN и подключение из Python (sqlite/psycopg2)"
+  Day15:
+    title: "Postman: коллекции и автотесты"
+    goal: "Создать коллекцию с окружениями и автотестами"
+  Day16:
+    title: "API-тестирование на pytest"
+    goal: "Писать тесты CRUD на pytest, использовать фикстуры"
+  Day17:
+    title: "Работа с файлами (upload/download)"
+    goal: "Автоматические проверки скачивания/загрузки файлов"
+  Day18:
+    title: "Логирование"
+    goal: "Подключить logging и логировать шаги теста"
+  Day19:
+    title: "Mock/Stub для API"
+    goal: "Использовать responses/requests-mock для изоляции запросов"
+  Day20:
+    title: "Обзор очередей (Kafka/RabbitMQ) [только для собеседования]"
+    goal: "Понимание концепций и чтение сообщений"
+  Day21:
+    title: "Промежуточный проект - мини-фреймворк"
+    goal: "Собрать мини-фреймворк: pytest + requests + POM + readme"
+  Day22:
+    title: "Selenium: старт и WebDriver"
+    goal: "Открыть браузер через selenium-manager и перейти на страницу"
+  Day23:
+    title: "Локаторы (id/name/css/xpath)"
+    goal: "Научиться выбирать правильные локаторы и их применять"
+  Day24:
+    title: "Ожидания (implicit/explicit) и stale elements"
+    goal: "Реализовать WebDriverWait/ожидания"
+  Day25:
+    title: "Page Object Model (POM)"
+    goal: "Применить POM и переписать тест в объектной модели"
+  Day26:
+    title: "Формы, dropdown, frames, alerts"
+    goal: "Работа с формами, iframe и модальными окнами"
+  Day27:
+    title: "Headless, профили и опции браузера"
+    goal: "Запуск headless и управление опциями/профилями"
+  Day28:
+    title: "Playwright для Python"
+    goal: "Написать тесты на Playwright и сравнить с Selenium"
+  Day29:
+    title: "Отчёты Allure (установка и интеграция)"
+    goal: "Интегрировать pytest с Allure и генерировать отчёты"
+  Day30:
+    title: "Параллельный запуск (pytest-xdist) и стабильность"
+    goal: "Настроить xdist, retry и скриншоты при падениях"
+  Day31:
+    title: "Утилиты: screenshot, retry, wait helpers"
+    goal: "Добавить хелперы и прикреплять скриншоты к отчёту"
+  Day32:
+    title: "Upload/download в браузерах (edge-cases)"
+    goal: "Проверять временные файлы и их целостность (MD5)"
+  Day33:
+    title: "Тестирование SPA (XHR/Fetch ожидания)"
+    goal: "Отслеживать изменение DOM после асинхронных вызовов"
+  Day34:
+    title: "Flaky tests: причины и исправления"
+    goal: "Распознавать flake-тесты и устранять (тайминги, синхронизация)"
+  Day35:
+    title: "Инструменты диагностики (browser & network logs)"
+    goal: "Собирать логи браузера и сетевые логи"
+  Day36:
+    title: "Интеграция Playwright/Selenium с pytest/Allure"
+    goal: "Унифицировать запуск тестов: --browser=chrome"
+  Day37:
+    title: "Сбор smoke/regression набора (10-15 тестов)"
+    goal: "Подготовить suite и запускать локально"
+  Day38:
+    title: "Рефакторинг фреймворка и документация"
+    goal: "Документировать запуск и требования (README)"
+  Day39:
+    title: "Введение в desktop-автоматизацию"
+    goal: "Обзор pywinauto/pyautogui и установка"
+  Day40:
+    title: "pywinauto: автоматизировать Calculator"
+    goal: "Открыть калькулятор, выполнить операции и проверить результат"
+  Day41:
+    title: "pyautogui: мышь, клавиатура, скриншоты"
+    goal: "Навигировать по экрану, делать скрины и ввод текста"
+  Day42:
+    title: "Работа с окнами и контролами"
+    goal: "Поиск контролов по имени/class, чтение текстов"
+  Day43:
+    title: "Интеграция desktop-тестов с pytest"
+    goal: "Добавить desktop-тесты в общий репозиторий"
+  Day44:
+    title: "Electron-приложения (обзор) [только для собеседования]"
+    goal: "Подходы: WebDriver если возможно, иначе pyautogui"
+  Day45:
+    title: "Логирование и артефакты desktop-тестов"
+    goal: "Скриншоты и запись видео при падении (ffmpeg опционально)"
+  Day46:
+    title: "Docker + GitHub Actions: базовая интеграция"
+    goal: "Подготовить Dockerfile для тест-раннера и workflow для GitHub Actions"
+  Day47:
+    title: "Desktop ↔ backend интеграция"
+    goal: "Тест: действие в UI приводит к записи в БД (проверка через API/DB)"
+  Day48:
+    title: "Итоговый demo-проект (web + desktop)"
+    goal: "Собрать demo и записать краткое видео 5-7 минут"
+  Day49:
+    title: "Установка Docker Desktop (Windows/WSL2)"
+    goal: "Настроить Docker и поднять контейнер Postgres"
+  Day50:
+    title: "Dockerize тест-раннер"
+    goal: "Создать Dockerfile для pytest + браузеры (Selenium/Playwright образ)"
+  Day51:
+    title: "Docker Compose: infra (db, mock)"
+    goal: "Составить docker-compose.yml и поднять стек"
+  Day52:
+    title: "GitHub Actions/GitLab CI: pipeline для тестов"
+    goal: "Написать workflow: checkout→build→run tests→upload artefacts"
+  Day53:
+    title: "Jenkins: обзор и job (только для собеседования)"
+    goal: "Понять Jenkinsfile и базовую настройку job"
+  Day54:
+    title: "Секреты и переменные окружения в CI"
+    goal: "Управление секретами и хранение тестовых данных"
+  Day55:
+    title: "Мониторинг/логи CI, артефакты"
+    goal: "Собирать логи и отправлять их в Allure/ReportPortal"
+  Day56:
+    title: "Production-like сценарии: nightly и smoke"
+    goal: "Настроить отдельные workflow: smoke и full-regression"
+  Day57:
+    title: "Финализация репо и README"
+    goal: "Подготовить README, примеры команд, чек-лист"
+  Day58:
+    title: "Подготовка ответов на интервью [только для собеседования]"
+    goal: "Скрипты ответов (OOP, fixtures, Selenium vs Playwright)"
+  Day59:
+    title: "Проигрывание интервью и запись демо"
+    goal: "10-минутный рассказ + 10-мин демо, запись экрана"
+  Day60:
+    title: "Итог: чек-лист готовности к вакансии"
+    goal: "Проверка: язык + фреймворк + CI + 10 тестов + Allure + SQL + desktop basics"
